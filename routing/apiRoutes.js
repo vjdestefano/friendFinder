@@ -46,6 +46,11 @@ module.exports = function(app) {
           return alc > blc ? 1 : alc < blc ? -1 : 0;
          });
          console.log(lowestDif);
+         return friendsSorted(lowestDif);
+      }
+
+      function friendsSorted(lowestDif){
+        
       }
       
   
